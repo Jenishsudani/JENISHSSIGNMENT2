@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    
+    <title>Assignment2</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+           
+            <h1>truck</h1>
+            
+        </div>
+
+        <nav>
+            <!-- First level UL for the main -->
+            <ul>
+                <li><a href="index.html">Index</a></li>
+                <li>
+                    <a href="media.html">Gallery</a>
+                    <!-- Second level UL for the sub menu -->
+                    <ul>
+                        <li><a href="../Assignment 2/media.html">Videos</li></a>
+                        <li><a href="../Assignment 2/gallery.html">Photos</li></a>
+                    </ul>
+                </li>
+                <li><a href="media.html">Media</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <aside>
+
+        <form>
+            <fieldset>
+                <legend>Delivery</legend>
+                <div class="field">
+                    <label for="fromName">you choose any color: </label>
+                    <input type="color" name="fromName" id="fromName">
+                </div><br>
+                <div class="field">
+                    <label for="fromDOB"> no: </label>
+                    <input type="number" name="fromDOB" placeholder="Number only" id="fromDOB">
+                </div><br>
+                <div class="field">
+                    <label for="fromName">name: </label>
+                    <input type="text" name="fromName" id="fromName">
+                </div><br>
+
+                <div class="field">
+                    <label for="message">Delivery persons name: </label>
+                    <textarea name="message" id="message"></textarea>
+                </div><br>
+            </fieldset>
+
+            
+            <div class="submit">
+                <div>
+                    <input type="checkbox" name="terms" id="terms" value="Yes">
+                    <label for="terms">terms and conditions</label>
+                </div>
+                <button type="submit">final submit</button>
+            </div>
+        </form>
+    </aside>
+
+    <main>
+        <form>
+            <fieldset>
+                <legend>truck type</legend>
+                <label for="trucks">truck selection</label>
+
+                <select name="trucks" id="trucks">
+                    <option value="truck 1">truck 1</option>
+                    <option value="truck 2">truck 2</option>
+                    <option value="truck 3">truck 3</option>
+                    <option value="truck 4">truck 4</option>
+                    <option value="truck 5">truck 5</option>
+                    <option value="truck 6">truck 6</option>
+                    <option value="truck 7">truck 7</option>
+                    <option value="truck 8">truck 8</option>
+                    <option value="truck 9">truck 9</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>all detail of buyers</legend>
+                <div class="field">
+                    <label for="fromName">Name: </label>
+                    <input type="text" name="fromName" id="fromName">
+                </div><br>
+                <div class="field">
+                    <label for="fromDOB">date of birth: </label>
+                    <input type="NUMBER" name="fromDOB" placeholder="MM-DD-YEAR" id="fromDOB">
+                </div><br>
+                <div class="field">
+                    <label for="PHONE">Phone no: </label>
+                    <input type="tel" name="PHONE" placeholder="xxx-xxx-xxxx" id="PHONE">
+                </div><br>
+
+                <div class="field">
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message"></textarea>
+                </div><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Payment</legend>
+                <div class="card">
+                    <input type="radio" name="card" id="cardYes">
+                    <label for="cardYes">Cash/card</label>
+                </div>
+                
+            </fieldset>
+
+
+        </form>
+    </main>
+
+
+    <footer>
+        &copy; jenish sudani, jenishsudani@gmail.com, 2023
+    </footer>
+
+</body>
+
+</html>
